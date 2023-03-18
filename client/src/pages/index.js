@@ -43,6 +43,7 @@ const Home = () => {
             bottom: "100px",
             right: "72.2px",
           }}
+          onClick={() => ('/hospital')}
           type="button"
         >
           <img style={{ height: "30px" }} src={glass} />

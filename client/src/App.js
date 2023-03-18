@@ -16,6 +16,7 @@ return (
 		<Route path='/' exact element={<Home/>} />
 		<Route path='/about' element={<About/>} />
 		<Route path='/scheme' element={<Scheme/>} />
+		<Route path='/hospital' element={<hospital/>}/>
 		{/* <Route path='/events' component={Events} /> */}
 	</Routes>
 	<Footer />
