@@ -44,7 +44,6 @@
  #e8ffe5*/
 /*home screen*/
 
-
 /*SCHEME PAGE*/
 .scheme-page {
   background-color: #ddfaff;
@@ -76,11 +75,17 @@
 }
 
 /*scheme page mobile view */
-@media screen and (max-width:375px) {
-  .box{
+@media screen and (max-width: 375px) {
+  .box {
     visibility: collapse;
     clear: both;
     display: none;
+  }
+  .scheme-page {
+    background-color: rgba(114, 138, 172, 1);
+  }
+  .scheme-box {
+    background-color: rgba(220, 250, 255, 1);
   }
 }
 
@@ -117,3 +122,35 @@
 }
 
 /* about page mobile view */
+@media screen and (max-width: 375px) {
+  .about {
+    padding: 15px;
+    background-color: rgba(220, 250, 255, 1);
+  }
+  .who {
+    padding: 30px 10px;
+  }
+  .we {
+    font-size: 15px;
+  }
+  .assist {
+    font-size: 15px;
+  }
+  .hospital {
+    padding: 0;
+  }
+  .patient,
+  .hospital {
+    display: inline-grid;
+    grid-template-columns: 90% 10%;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 30px;
+    font-size: 15px;
+  }
+  .image {
+    visibility: collapse;
+    clear: both;
+    display: none;
+  }
+}

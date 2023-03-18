@@ -49,7 +49,7 @@ export default function Footer() {
               Team - <br/>
               <a href='https://www.linkedin.com/in/harsh-yadav-605888214/' className='text-reset' >Harsh Yadav</a> <br/>
               <a href='https://www.linkedin.com/in/yashwardhan-acharya/' className='text-reset' >Yashwardhan Acharya</a> <br/>
-              <a href='https://www.linkedin.com/in/khushi-jain-286091153/' className='text-reset' >Khushi Jain</a> <br/>
+              <a href='https://drive.google.com/drive/folders/1IiPMWdVnRnLwhh9dkbwQzDKhMeQUdmSY?usp=share_link' className='text-reset' >Khushi Jain</a> <br/>
               <a href='https://www.linkedin.com/in/riya-j28/' className='text-reset' >Riya Jain</a> <br/>
               <a href='https://www.linkedin.com/in/arpita-gehlot-154507240/' className='text-reset' >Arpita Gehlot</a> <br/>
             </MDBCol>

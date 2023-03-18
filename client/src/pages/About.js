@@ -13,11 +13,11 @@ const About = () => {
         ~ WHO WE ARE.
       </h3>
       <div className="patient">
-        <div style={{ lineHeight: "2" }}>
-          <h1 style={{ fontSize: "36px", fontWeight: "700" }}>
+        <div className="assist" style={{ lineHeight: "2" }}>
+          <p className="we" style={{ lineHeight:'1', fontSize: "36px", fontWeight: "700"}}>
             WE ASSIST IN RECOVERY.
-          </h1>
-          <p style={{ fontWeight: "400" }}>
+          </p>
+          <p className="para-1" style={{ fontWeight: "400" }}>
             We are dedicated to giving our patients with the best possible
             treatment. We realize that being in a hospital can be stressful, and
             we try to make the atmosphere comfortable, secure, and welcoming for
@@ -32,10 +32,11 @@ const About = () => {
             on qualifications, perks, and registration processes.
           </p>
         </div>
-        <img style={{ width: "65%" }} src={patient} alt="image" />
+        <img  className="image" style={{ width: "65%" }} src={patient} alt="image" />
       </div>
       <div className="hospital">
         <img
+        className="image"
           style={{ width: "80%", justifyItems: "center", paddingLeft: "60px" }}
           src={hospital}
           alt="image"
