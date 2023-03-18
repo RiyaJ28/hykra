@@ -36,7 +36,7 @@ const Scheme = () => {
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
-            <div className="scheme-box">
+            <div className="scheme-box box">
               <h1>Ayushman Bharat</h1>
               <p>
                 LOREM LREML OREJHD SSVHSYV HGFUYVB GVHBF VHBFVHJB SFVJHBHSFVJ
@@ -45,7 +45,7 @@ const Scheme = () => {
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
-            <div className="scheme-box">
+            <div className="scheme-box box">
               <h1>Ayushman Bharat</h1>
               <p>
                 LOREM LREML OREJHD SSVHSYV HGFUYVB GVHBF VHBFVHJB SFVJHBHSFVJ
@@ -54,7 +54,7 @@ const Scheme = () => {
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
-            <div className="scheme-box">
+            <div className="scheme-box box">
               <h1>Ayushman Bharat</h1>
               <p>
                 LOREM LREML OREJHD SSVHSYV HGFUYVB GVHBF VHBFVHJB SFVJHBHSFVJ
@@ -63,7 +63,7 @@ const Scheme = () => {
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
-            <div className="scheme-box">
+            <div className="scheme-box box">
               <h1>Ayushman Bharat</h1>
               <p>
                 LOREM LREML OREJHD SSVHSYV HGFUYVB GVHBF VHBFVHJB SFVJHBHSFVJ
