@@ -4,12 +4,12 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 export default function Footer() {
   return (
     <MDBFooter style={{backgroundColor:'#006B75', color:'#000'}} className='text-center text-lg-start text-muted'>
-      <section style={{fontFamily: 'Barlow, sans-serif',}} className=''>
+      <section style={{fontFamily: 'Barlow, sans-serif', fontWeight:'600', fontSize:'15px'}} className=''>
         <MDBContainer className='text-center text-md-start'>
           <MDBRow className='p-3' style={{color:'#fff'}}>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 >Useful links</h6>
+              <p >Useful links</p>
               <p>
                 <a href='#!' className='text-reset'>
                   Pricing
@@ -45,12 +45,20 @@ export default function Footer() {
               AJMER RAJASTHAN
               
             </MDBCol>
+            <MDBCol>
+              Team - <br/>
+              <a href='https://www.linkedin.com/in/harsh-yadav-605888214/' className='text-reset' >Harsh Yadav</a> <br/>
+              <a href='https://www.linkedin.com/in/yashwardhan-acharya/' className='text-reset' >Yashwardhan Acharya</a> <br/>
+              <a href='https://www.linkedin.com/in/khushi-jain-286091153/' className='text-reset' >Khushi Jain</a> <br/>
+              <a href='https://www.linkedin.com/in/riya-j28/' className='text-reset' >Riya Jain</a> <br/>
+              <a href='https://www.linkedin.com/in/arpita-gehlot-154507240/' className='text-reset' >Arpita Gehlot</a> <br/>
+            </MDBCol>
           </MDBRow>
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
+      <div className='text-center p-4' style={{ backgroundColor: '#006B75' }}>
+        © 2023 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
           MDBootstrap.com
         </a>

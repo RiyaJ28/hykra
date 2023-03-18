@@ -8,27 +8,11 @@ const Home = () => {
 
 const About = () => {
   return (
-    <div
-      style={{
-        fontFamily: "Barlow, sans-serif",
-        backgroundColor: "#728AAC",
-        color: "white",
-      }}
-    >
-      <h3 style={{ fontSize: "26px", paddingLeft: "60px", fontWeight: "700" }}>
+    <div className="about">
+      <h3 className="who">
         ~ WHO WE ARE.
       </h3>
-      <div
-        style={{
-          alignContent: "center",
-          display: "inline-grid",
-          gridTemplateColumns: "60% 40%",
-          justifyContent: "center",
-          justifyItems: "center",
-          paddingLeft: "60px",
-          fontSize: "17px",
-        }}
-      >
+      <div className="patient">
         <div style={{ lineHeight: "2" }}>
           <h1 style={{ fontSize: "36px", fontWeight: "700" }}>
             WE ASSIST IN RECOVERY.
@@ -50,16 +34,7 @@ const About = () => {
         </div>
         <img style={{ width: "65%" }} src={patient} alt="image" />
       </div>
-      <div
-        style={{
-          display: "inline-grid",
-          gridTemplateColumns: "30% 70%",
-          alignContent: "center",
-          alignItems: "center",
-          padding: "0px 50px 0 60px ",
-          fontSize: "17px"
-        }}
-      >
+      <div className="hospital">
         <img
           style={{ width: "80%", justifyItems: "center", paddingLeft: "60px" }}
           src={hospital}
