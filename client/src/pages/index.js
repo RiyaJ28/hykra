@@ -30,7 +30,7 @@ const Home = () => {
         type={Text}
 		placeholder="Location"
       ></input>
-	  <button style={{ border:"none", background:"none",   position: 'relative', bottom: "100px" , right:"72.2px"}} type="button" ><img style={{height:"30px",}} src={glass} /></button>
+	  <button value={"hospital name"} style={{ border:"none", background:"none",   position: 'relative', bottom: "100px" , right:"72.2px"}} type="button" ><img style={{height:"30px",}} src={glass} /></button>
 	  
     </div>
         <Scheme />

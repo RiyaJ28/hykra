@@ -73,6 +73,10 @@ const Scheme = () => {
           </div>
         </div>
       </div>
+      <div style={{textAlign:'center'}} >
+      <a href="#" className="text-reset">VIEW MORE</a>
+      </div>
+      
     </div>
   );
 };

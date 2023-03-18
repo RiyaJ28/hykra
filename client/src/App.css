@@ -40,11 +40,14 @@
 /* .navbar-scroll {
   background-color: #fff;
 } */
-/*rgba(189, 217, 191, 1)*/
+/*rgba(189, 217, 191, 1)
+ #e8ffe5*/
+/*home screen*/
+
 
 /*SCHEME PAGE*/
 .scheme-page {
-  background-color: #e8ffe5;
+  background-color: #ddfaff;
   padding: 40px 20px;
   font-family: Barlow, sans-serif;
   font-size: 17px;
