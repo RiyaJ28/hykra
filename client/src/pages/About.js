@@ -8,13 +8,16 @@ const Home = () => {
 
 const About = () => {
   return (
-    <div style={{
-      fontFamily: 'Barlow, sans-serif',
-      backgroundColor: '#728AAC',
-      color:'white',
-      
-    }}>
-      <h3 style={{fontSize:'26px', paddingLeft:'60px' , fontWeight:'700'}}>~ WHO WE ARE.</h3>
+    <div
+      style={{
+        fontFamily: "Barlow, sans-serif",
+        backgroundColor: "#728AAC",
+        color: "white",
+      }}
+    >
+      <h3 style={{ fontSize: "26px", paddingLeft: "60px", fontWeight: "700" }}>
+        ~ WHO WE ARE.
+      </h3>
       <div
         style={{
           alignContent: "center",
@@ -23,14 +26,14 @@ const About = () => {
           justifyContent: "center",
           justifyItems: "center",
           paddingLeft: "60px",
-          fontSize:'17px',
+          fontSize: "17px",
         }}
       >
-        
-        <div style={{ lineHeight:'2'}}>
-         
-          <h1 style={{fontSize:'36px', fontWeight:'700'}}>WE ASSIST IN RECOVERY.</h1>
-          <p style={{fontWeight:'400'}}>
+        <div style={{ lineHeight: "2" }}>
+          <h1 style={{ fontSize: "36px", fontWeight: "700" }}>
+            WE ASSIST IN RECOVERY.
+          </h1>
+          <p style={{ fontWeight: "400" }}>
             We are dedicated to giving our patients with the best possible
             treatment. We realize that being in a hospital can be stressful, and
             we try to make the atmosphere comfortable, secure, and welcoming for
@@ -45,7 +48,7 @@ const About = () => {
             on qualifications, perks, and registration processes.
           </p>
         </div>
-        <img style={{ width: '65%'}} src={patient} alt="image" />
+        <img style={{ width: "65%" }} src={patient} alt="image" />
       </div>
       <div
         style={{
@@ -54,14 +57,24 @@ const About = () => {
           alignContent: "center",
           alignItems: "center",
           padding: "0px 50px 0 60px ",
+          fontSize: "17px"
         }}
       >
-        <img style={{ width: "80%", justifyItems:'center', paddingLeft:'60px', }} src={hospital} alt="image" />
-        <p style={{alignItems:'center', lineHeight:'2', fontWeight:'400'}}>
-        Apart from that, because we understand that not everyone finds it simple to use the website, we have given a scanner with which you can scan the qr code accessible at every hospital to gain access to a map and determine your position and goal. We provide a full bundle of virtual personal help for you somewhere. Our goal is to provide all amenities in less time than the average hospital stay. Time is money, and we are here to help you save it.
+        <img
+          style={{ width: "80%", justifyItems: "center", paddingLeft: "60px" }}
+          src={hospital}
+          alt="image"
+        />
+        <p style={{ alignItems: "center", lineHeight: "2", fontWeight: "400" }}>
+          Apart from that, because we understand that not everyone finds it
+          simple to use the website, we have given a scanner with which you can
+          scan the qr code accessible at every hospital to gain access to a map
+          and determine your position and goal. We provide a full bundle of
+          virtual personal help for you somewhere. Our goal is to provide all
+          amenities in less time than the average hospital stay. Time is money,
+          and we are here to help you save it.
         </p>
       </div>
-
     </div>
   );
 };

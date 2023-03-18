@@ -14,13 +14,15 @@ const Home = () => {
         alignItems: "center",
         height: "100vh",
         backgroundImage: `url(${backgroundImage})`,
+        backgroundRepeat:'no-repeat',
+        backgroundSize:'cover',
       }}
     >
       <input
         style={{
           border: "solid 5px black",
           width: "50%",
-		  height: '60px',
+		  height: '40px',
           position: "relative",
           bottom: "100px",
           backgroundColor: "#e8ffe5",
@@ -28,7 +30,7 @@ const Home = () => {
         type={Text}
 		placeholder="Location"
       ></input>
-	  <button style={{ border:"none", background:"none",   position: 'relative', bottom: "100px" , right:"72.2px"}} type="button" ><img style={{height:"45px",}} src={glass} /></button>
+	  <button style={{ border:"none", background:"none",   position: 'relative', bottom: "100px" , right:"72.2px"}} type="button" ><img style={{height:"30px",}} src={glass} /></button>
 	  
     </div>
         <Scheme />

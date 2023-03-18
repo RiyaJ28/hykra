@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 export default function Footer() {
   return (
     <MDBFooter style={{backgroundColor:'#006B75', color:'#000'}} className='text-center text-lg-start text-muted'>
-      <section className=''>
+      <section style={{fontFamily: 'Barlow, sans-serif',}} className=''>
         <MDBContainer className='text-center text-md-start'>
           <MDBRow className='p-3' style={{color:'#fff'}}>
 
